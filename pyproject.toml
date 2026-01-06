@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0","wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fgqsar_gen"
+version = "0.1.0"
+description = "FG-guided QSAR-based molecule generation demo for AIDD"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+
+authors = [
+  {name = "Yujun Tao", email = "yujun.tao@outlook.com"}
+]
+
+dependencies = [
+  "numpy",
+  "pandas",
+  "scikit-learn",
+  "pickle",
+  "rdkit"
+]
+
+[tool.setuptools]
+packages = ["fgqsar_gen"]
+
+[project.urls]
+Homepage = "https://github.com/jnutyj/ADMET_SM/package/fgqsar_gen"
+

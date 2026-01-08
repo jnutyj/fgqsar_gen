@@ -1,6 +1,6 @@
 # fgqsar_gen
 
-FG-guided QSAR-based molecule generation demo for AIDD.
+FG-guided QSAR-based molecule generation for AIDD.
 
 ## Features
 - RF + MACCS QSAR prediction
